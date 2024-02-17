@@ -1,0 +1,119 @@
+@font-face{
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Trebuchet MS'), url('trebuc.woff') format('woff');
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS';
+}
+h4{
+    text-transform: uppercase;
+}
+
+ul{
+    list-style-type: disc;
+}
+.line{
+    height: 1px;
+    width: 40px;
+    background-color: white;
+    position: relative;
+    top: -0px;
+}
+.fa-solid{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    padding-top: 6px;
+    font-size: small;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.name{
+    background-color: #747d8c;
+    padding: 35px;
+    width: 400px;
+}
+.name p{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+.education{
+    padding: 35px;
+    background-color: #d3dbe9;
+    width: 400px;
+    height:700px;
+}
+.education ul{
+    padding-left: 17px;
+    padding-top: 10px;
+}
+
+
+
+.summary{
+    height: 309px;
+    width: 903px;
+    position:relative;
+    top: -1009px;
+    float: right;
+    text-align: justify;
+    background-color: #c9cdd4;
+    padding-top: 80px;
+    padding-left: 40px;
+}
+.summary p{
+    margin-top: 15px;
+    width: 650px;
+}
+.experience{
+    float: right;
+    position: relative;
+    top: -950px;
+    right: 270px;
+}
+.experience ul{
+    margin-top: 15px;
+    padding-left: 17px;
+}
+.contact{
+    float: right;
+    position: relative;
+    top: -750px;
+    right: 38px;
+}
+.contact .one{
+    height: 35px;
+    width: 234px;
+    margin-top: 18px;
+}
+.two{
+    height: 35px;
+    width: 234px;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+.four{
+    margin-top: 12px;
+    background: #747d8c;
+    border: none;
+    border-radius: 8px;
+    height: 40px;
+    width: 70px;
+    color: white;
+}
+.four:hover{
+    color: #c9cdd4;
+}
+::placeholder{
+    padding-left: 10px;
+}
+
